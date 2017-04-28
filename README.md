@@ -40,11 +40,11 @@ A Course is treated as a single bookable activity containing one or more occuren
 | start_date | "2017-04-22T10:00:00Z"  | The start date/time of the first occurence in this Course |
 | end_date | "2017-04-24T14:00:00Z"  | The end date/time of the last occurence in this Course |
 | facility | null  | Will always be null for a Course as it is specified in each occurence node | 
-| location | null  | Will always be null for a Course as it is specified in each occurence node |
+| location | "Pine Road, Woking"  | The geographical location of the first session within this course |
 | image_url | null  | Will always be null for a Course as images are specified in the Group Play node (for the whole course) or each individual occurence node (for each session within the Course) |
 | join_url | null  | Will always be null for a Course as it is specified in the Group Play node | 
-| lat | null  | Will always be null for a Course as it is specified in each occurence node |
-| lng | null  | Will always be null for a Course as it is specified in each occurence node |
+| lat | 51.306975  | The latitude coordinate of the first course occurence |
+| lng | -0.5783936  | The longitude coordinate of the first course occurence |
 | organizer_name | null  | Will always be null for a Course as it is specified in each occurence node | 
 | organizer_email | null  | Will always be null for a Course as it is specified in each occurence node | 
 | organizer_tel | null  | Will always be null for a Course as it is specified in each occurence node | 
