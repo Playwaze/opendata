@@ -1,9 +1,7 @@
 # Playwaze Open Data
 
 ## Open Data Endpoint
-https://playwaze.com/Webservices/Playwazeservice.svc/Groupplay/GetOpenActiveData - a feed of the data from the Playwaze app
-You can also add a sport parameter if you only want to return courses and sessions for one particular sport e.g. 
-https://playwaze.com/Webservices/Playwazeservice.svc/Groupplay/GetOpenActiveData?sport=Tennis
+https://playwaze.com/WebServices/PlayWazeService.svc/OpenData/Events - a feed of open session data from the Playwaze app
 
 ## Standards
 The data is published to conform to [Openactive Realtime Paged Data Exchange 0.2.3](https://www.openactive.io/realtime-paged-data-exchange/0.2.3/).
